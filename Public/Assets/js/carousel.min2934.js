@@ -1,0 +1,4 @@
+/*!
+ * Generated file - Do not change here!
+ */
+!function(i){function n(){var n,t=i("#testimonialsCarousel"),s=[];if(t.length){t.css("display","hidden");var a=t.find(".item").css("display","block");a.each(function(){i(this).css("min-height",""),s.push(i(this).outerHeight())}),n=Math.max.apply(null,s),a.each(function(){i(this).css("min-height",n+"px"),i(this).css("display","")})}}function t(i,n,t){var s;return function(){var a=this,e=arguments,o=function(){s=null,t||i.apply(a,e)},c=t&&!s;clearTimeout(s),s=setTimeout(o,n),c&&i.apply(a,e)}}function s(){var n=i("#testimonialsCarousel .item");n.length&&n.first().addClass("active")}i(function(){i(window).on("load",n),i(window).on("resize orientationchange",t(n,200)),s()})}(jQuery);
